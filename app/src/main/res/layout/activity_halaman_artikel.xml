@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halamanArtikel">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txJudul"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Artikel"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/txJudulArtikel"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txJudul"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Perkembangan Janin Ibu Hamil 1 bulan"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textJudul1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="230dp"
+            android:gravity="start"
+            android:text="Bagaimana Otak Si Kecil Berkembang?"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/textArtikel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txJudulArtikel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:autoLink="web"
+            android:gravity="center|left"
+            android:padding="20dp"
+
+            android:text="
+        Perkembangan Si Kecil telah dimulai dari saat pembuahan, pusat pertumbuhan intelektualnya mulai berkembang - dan akan terus berkembang selama kehamilan dan setelah Si Kecil lahir.
+
+Pada awalnya hal ini mungkin sedikit membingungkan, namun perkembangan Si Kecil diukur menurut minggu, atau bulan, yang terbagi menjadi trimester.
+
+Usia gestasi adalah istilah yang digunakan untuk menjelaskan seberapa jauh kehamilan berlangsung. Hal ini diukur menurut minggu, dari hari pertama siklus menstruasi terakhir hingga saat ini. Kehamilan normal berkisar antara 38-42 minggu.
+
+Sebagai awal dari proses ini, selama dua dan tiga minggu (2 dan 3 minggu) pertama kehamilan, merupakan masa perkembangan tabung saraf - struktur yang nantinya berubah menjadi otak, sumsum tulang belakang, sistem saraf dan tulang punggung Si Kecil.
+
+Pada minggu keenam, otak Si Kecil mulai terbagi menjadi otak kiri dan otak kanan. Namun bukan hanya otak yang berubah bentuk; pada akhir bulan kedua, jantung dan sistem peredaran darahnya pun mulai berkembang, yang berarti jantungnya mulai berdetak
+
+di dalam tubuh Ibu – bahkan jantung Si Kecil berdetak dua kali lebih cepat dari jantung Ibu sendiri!"/>
+
+        <TextView
+            android:id="@+id/textJudul2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="650dp"
+            android:gravity="start"
+            android:text="Bagaimana cara mendukung perkembangan Si Kecil?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textArtikel2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txJudulArtikel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"
+            android:autoLink="web"
+            android:gravity="center|left"
+            android:padding="20dp"
+            android:text="
+            Ibu dapat membantu perkembangan kognitif Si Kecil dengan menerapkan diet seimbang yang mencukupi kebutuhan nutrisi penting seperti DHA (Docosahexaenoic acid) dan ARA (Arachidonic acid). Nutrisi ini kaya dengan asam lemak omega-3 dan omega-6 yang sangat penting untuk mendukung perkembangan otak dan mata Si Kecil. Lemak baik dapat ditemukan dalam ikan yang berminyak seperti salmon, sarden dan makarel. US Department of Agriculture dan US Department of Health and Human Services menyarankan agar ibu hamil atau menyusui mengonsumsi setidaknya 226 sampai 340 gram makanan laut dalam seminggu. Selama kehamilan 1 bulan pertama Ibu, cobalah untuk makan dua porsi ikan berlemak seperti salmon, setiap minggu.
+
+Ikan memang merupakan sumber DHA. Namun selama masa kehamilan, hindari ikan dan kerang yang mengandung kadar merkuri tinggi karena dapat membahayakan sistem saraf Si Kecil. Biasanya, ikan yang lebih tua dan lebih besar mengandung lebih banyak merkuri, sehingga Ibu sebaiknya menghindari makanan dari ikan pedang atau ikan hiu."/>
+
+        <TextView
+            android:id="@+id/textJudul3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1060dp"
+            android:gravity="start"
+            android:text="Bagaimana bentuk Si Kecil?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txArtikel3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txJudulArtikel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="900dp"
+            android:autoLink="web"
+            android:gravity="center|left"
+            android:padding="20dp"
+            android:text="
+             Meskipun bentuk wajah Si Kecil belum terlihat, mata, telinga dan mulutnya mulai muncul di kehamilan 1 bulan pertama. Si Kecil adalah kombinasi unik dari DNA Ibu dan ayah, sehingga Ibu tidak akan tahu Si Kecil lebih mirip siapa hingga dia lahir! Jenis kelamin, tinggi badan, warna rambut, kulit dan mata, dan bahkan beberapa ciri kepribadiannya, ditentukan pada saat pembuahan oleh satu set yang terdiri dari 46 kromosom.
+Sementara itu, enam minggu pertama ini adalah periode yang berat bagi Ibu dan Si Kecil. Tidak mengherankan jika salah satu tanda awal kehamilan adalah Ibu sering merasa lelah. Dengan segala perubahan ini, Si Kecil tumbuh hingga lebih dari setengah inci atau satu sentimeter lebih, atau kira-kira sebesar kuku ibu jari – sebuah perkembangan yang mengesankan! Otak Si Kecil terus berkembang sepanjang kehamilan sehingga konsumsi makanan kaya DHA yang mendukung perkembangan kognitif itu sangat penting." />
+
+        <Button
+            android:id="@+id/bBeli"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txArtikel3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:onClick="fMain"
+            android:text="Beli Semua" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="53dp"
+            android:layout_height="57dp"
+            android:layout_below="@id/txArtikel3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/enervonce" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="53dp"
+            android:layout_height="57dp"
+            android:layout_below="@id/txArtikel3"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/vit"/>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
