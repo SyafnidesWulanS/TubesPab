@@ -62,13 +62,14 @@
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="48dp"
         android:background="#031E3E"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/onsite"
-        tools:layout_editor_absoluteX="66dp" />
+        app:srcCompat="@drawable/onsite" />
 
     <ImageButton
         android:id="@+id/imageButton4"
